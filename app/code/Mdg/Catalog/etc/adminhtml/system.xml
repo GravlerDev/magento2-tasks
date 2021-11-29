@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="Mdg" translate="label">
+            <label>Mdg</label>
+        </tab>
+        <section id="mdg_section" showInDefault="1" showInWebsite="1" showInStore="1" translate="label">
+            <label>Mdg</label>
+            <tab>Mdg</tab>
+            <resource>Mdg_Catalog::catalog_config</resource>
+            <group id="mdg_product" translate="label" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Product</label>
+                <field id="add_to_price" translate="label" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Add to price</label>
+                    <validate>integer</validate>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

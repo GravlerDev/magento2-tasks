@@ -1,0 +1,5 @@
+<config>
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="Mdg_Catalog_Price_Plugin" type="Mdg\Catalog\Plugin\Product" sortOrder="1" disabled="false" />
+    </type>
+</config>
